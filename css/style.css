@@ -8,7 +8,7 @@
     height: 70px;
     width: 100%;
     background-color: orangered;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     color: white;
     
     
@@ -174,5 +174,54 @@
 .sesto{
     position: absolute;
     left: 0;
+}
+.footer-container{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+}
+.footer-flex1{
+    padding-top: 25px;
+    margin: auto;
+    height: 40px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-flex2{
+    margin: 0 auto 10px;
+    height: 40px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    
+
+}
+.ft-img{
+    height: 14px;
+    filter: invert();
+
+}
+.booleando{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+
+
+}
+.trovaci{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.info{
+    padding: 1em;
 }
 
