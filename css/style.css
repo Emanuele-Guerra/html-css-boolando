@@ -6,8 +6,8 @@
 
 
 .main-container{
-    margin-top: 100px;
-    margin: auto;
+    
+    margin: 50px auto 50px;
     width: 80%;
     min-height: 500px;
 }
@@ -26,12 +26,12 @@
     width: 320px;
     background-color: blue;
     display: flex;
-    position: relative;
+    
 }
 .square{
     height: 100px;
     width: 100px;
-    position: absolute;
+    
     top: 0px;
     background-color: brown;
 }
