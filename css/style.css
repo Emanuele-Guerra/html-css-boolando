@@ -62,6 +62,7 @@
 }
 
 
+
 .img1{
     background-image: url(../img/1.webp);
     background-size: cover;
@@ -206,6 +207,7 @@
 .ft-img{
     height: 14px;
     filter: invert();
+    margin: 5px;
 
 }
 .booleando{
@@ -219,9 +221,11 @@
     display: flex;
     font-size: 12px;
     font-weight: 600;
+    padding: 0 1em 0 0;
     
 }
-.info{
-    padding: 1em;
+.infos{
+    margin: 0 1em 0 1em;
+    
 }
 
