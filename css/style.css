@@ -7,24 +7,22 @@
 header{
     height: 70px;
     width: 100%;
-    margin-bottom: 50px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 300;
+    font-weight: 600;
 }
 main{
     margin-top: 100px;
     position: relative;
 }
-
 .header-container{
     height: 100%;
     width: 100%;
     background-color: orangered;
     margin-bottom: 50px;
     color: white;
-    
 }
 .header-flex{
     line-height: 70px;
@@ -50,26 +48,21 @@ li{
     display: flex;
     justify-content: center;
 }
-
-
 .main-container1{
     margin: 0 auto;
     width: 70%;
     min-height: 500px;
-    
 }
 .main-container2{
     margin: auto;
     width: 70%;
     min-height: 500px;
-    
 }
 .flex-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    
 }
 .container{
     height: 462px;
@@ -78,9 +71,6 @@ li{
     margin: 10px 10px 0 10px;
     position: relative;
 }
-
-
-
 .img1{
     background-image: url(../img/1.webp);
     background-size: cover;
@@ -163,8 +153,9 @@ li{
     top: 10px;
     font-size: 30px;
 }
-
-
+.heart:hover{
+    color: red;
+}
 .percent{
     height: 20px;
     min-width: 40px;
@@ -222,31 +213,24 @@ li{
     justify-content: space-between;
     align-items: center;
     font-size: 10px;
-    
-
 }
 .ft-img{
     height: 14px;
     filter: invert();
     margin: 5px;
-
 }
 .booleando{
     display: flex;
     font-size: 12px;
     font-weight: 600;
-
-
 }
 .trovaci{
     display: flex;
     font-size: 12px;
     font-weight: 600;
     padding: 0 1em 0 0;
-    
 }
 .infos{
     margin: 0 1em 0 1em;
-    
 }
 
